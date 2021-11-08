@@ -43,14 +43,9 @@ I've played the 'batting training'  and yould not find any errors.
 There is the chance to add external switch to give you a better game experience. You can set the pitch on a multi position switch and include two buttons to throw and hit. (I need to try this soon)
 
 
-:D
-Get the files [here][6]
-webdoktor
-
-
-  [1]: https://netzherpes.de:443/content/images/20211103095458-KIM1_BB_small.png
+  [1]: https://github.com/netzherpes/Baseball-for-KIM-1/blob/main/KIM1_BB_small.png
   [2]: http://retro.hansotten.nl/uploads/files/6502%20user%20notes%2016.pdf
   [3]: https://netzherpes.de:443/content/images/20211103095701-bb_ins.png
   [4]: https://netzherpes.de:443/content/images/20211107100406-bb_ball_fly.png
   [5]: https://netzherpes.de:443/content/images/20211107111554-bb_ball_hit.png
-  [6]: https://drive.google.com/drive/folders/1tc37jpOUlecLnFX0RAfDPpd0VZ2PjXa9?usp=sharing
+
