@@ -1,18 +1,56 @@
 # Baseball-for-KIM-1
-I've discovered that Robert 'Bob' Leedom published another game called Baseball in the KIM user notes issue 16: enter image description here
+I've discovered that Robert *'Bob'* Leedom published another game called Baseball in the KIM user notes issue 16:
+![enter image description here][1]
 
-Sadly the "listing" of the game was pure HEX, no source file. Typing in these listings is straight forward, but sadly the scan of the article is, well, miserable and to distinguish between 8 and B is sometimes impossible. So, as long as we have no additional informations, this game can not be reconstructed.
+The "listing" of the game was pure HEX, no source file given.
+Typing in these listings is straight forward, but sadly the scan of the article is, well, miserable and to distinguish between 8 and B is sometimes impossible.
+So, as long as we have no additional informations, this game can not be reconstructed. 
 
-Some infos about the game: It fits in an unexpanded KIM-1, and is being played with the keypad and the LEDs
+Some infos about the game: 
+It fits in an unexpanded KIM-1, and is being played with the keypad and the LEDs
 
-enter image description here
+You can find the whole article here on Hans' site [http://retro.hansotten.nl/uploads/files/6502%20user%20notes%2016.pdf][2]
 
-You can find the whole article here on Hans' site http://retro.hansotten.nl/uploads/files/6502%20user%20notes%2016.pdf
+I've found a slight better copy of the KIM User Notes and checked every byte of my typed in HEX file. Five Bugs later I have something up and running.
 
-Let's see what will happen
+## How to play
 
-Update 06.11.2021
+There are two game modes: 
 
-I've found a slight better copy of the KIM User Notes and checked every byte of my typed in HEX file. Five Bugs later I have something up and running. PAPERTAPE FILES
+ - A one player batting pactice mode (default) 
+ - A two player mode where one throws the ball (with the buttons 0-5) and one player has to hit;  change the game mode by setting $002C to 1
 
-I've played the 'batting training' and yould not find any errors. For the 2 player version of the game you need to change address $002C to >0 :D
+![enter image description here][3]
+
+The pitcher (in one player mode the computer) decides how the ball is thrown. The baseball then flies immediately to the Batter.
+| Key | Pitch |
+|--|--|
+| 0 | slow Ball |
+| 1 | fast Ball |
+| 2 | up curve |
+| 3 | down curve |
+| 4 | riser |
+| 5 | sinker |
+
+![enter image description here][4]
+
+The Batter has to time very carefully when to hit with the button **B**
+
+![enter image description here][5]
+
+I've played the 'batting training'  and yould not find any errors. 
+
+There is the chance to add external switch to give you a better game experience. You can set the pitch on a multi position switch and include two buttons to throw and hit. (I need to try this soon)
+
+
+:D
+Get the files [here][6]
+webdoktor
+
+
+  [1]: https://netzherpes.de:443/content/images/20211103095458-KIM1_BB_small.png
+  [2]: http://retro.hansotten.nl/uploads/files/6502%20user%20notes%2016.pdf
+  [3]: https://netzherpes.de:443/content/images/20211103095701-bb_ins.png
+  [4]: https://netzherpes.de:443/content/images/20211107100406-bb_ball_fly.png
+  [5]: https://netzherpes.de:443/content/images/20211107111554-bb_ball_hit.png
+  [6]: https://drive.google.com/drive/folders/1tc37jpOUlecLnFX0RAfDPpd0VZ2PjXa9?usp=sharing
