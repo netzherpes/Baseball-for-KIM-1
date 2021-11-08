@@ -9,7 +9,7 @@ So, as long as we have no additional informations, this game can not be reconstr
 Some infos about the game: 
 It fits in an unexpanded KIM-1, and is being played with the keypad and the LEDs
 
-You can find the whole article here on Hans' site [http://retro.hansotten.nl/uploads/files/6502%20user%20notes%2016.pdf][2]
+You can find the whole article here [KIM User Notes 16 - Baseball][2]
 
 I've found a slight better copy of the KIM User Notes and checked every byte of my typed in HEX file. Five Bugs later I have something up and running.
 
