@@ -46,7 +46,9 @@ There is the chance to add external switch to give you a better game experience.
 ## Special thanks to: 
 **Bob Leedom**, who dug in his basement in the search for all the missing documents, scanning and sending it 
 *You're the best!*
+
 **Hans Otten** for his preservation of all the documents online,
+
 **Liu** for building the PAL-1 (an affordable and full KIM-1 clone)
 
 
